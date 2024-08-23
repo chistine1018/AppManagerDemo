@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:title="搜索"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/showApp"
+        android:title="顯示系統應用" />
+    <item
+        android:id="@+id/sortByName"
+        android:title="依名稱排序" />
+    <item
+        android:id="@+id/sortByPermissions"
+        android:title="依權限數量排序" />
+    <item
+        android:id="@+id/sortByALLSize"
+        android:title="依總排序排序" />
+    <item
+        android:id="@+id/sortByAPKSize"
+        android:title="依apk排序排序" />
+    <item
+        android:id="@+id/donate"
+        android:title="捐款支持" />
+<!--    <item-->
+<!--        android:id="@+id/communication"-->
+<!--        android:title="線上交流" />-->
+    <item
+        android:id="@+id/exit"
+        android:title="退出" />
+</menu>
